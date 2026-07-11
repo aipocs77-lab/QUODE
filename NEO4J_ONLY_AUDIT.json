@@ -1,0 +1,21 @@
+{
+  "source_package": "QODE_Neo4j_AutoIngest_Complete.zip",
+  "python_compile_errors": [],
+  "networkx_python_references": [],
+  "checks": {
+    "graph_builder_exists": true,
+    "graph_retriever_exists": true,
+    "ingest_exists": true,
+    "startup_ingest_exists": true,
+    "api_exists": true,
+    "neo4j_driver_used": true,
+    "cypher_merge_present": true,
+    "subgraph_method_present": true,
+    "retriever_calls_subgraph": true,
+    "startup_calls_ingest_all": true,
+    "startup_invalidates_cache": true,
+    "api_calls_run_chain": true,
+    "api_has_query_endpoint": true
+  },
+  "status": "PASS"
+}

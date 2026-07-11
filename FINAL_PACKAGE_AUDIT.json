@@ -1,0 +1,8 @@
+{
+  "python_compile_errors": [],
+  "networkx_references": [],
+  "clear_database_method_present": true,
+  "detach_delete_cypher_present": true,
+  "flush_called_before_graph_build": true,
+  "status": "PASS"
+}

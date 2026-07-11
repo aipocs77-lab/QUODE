@@ -1,0 +1,5 @@
+Fixed ChromaDB query embedding shape.
+Root cause: rag_pipeline/retriever.py CachedEmbeddingFunction.embed_query()
+returned converted[0], a flat list[float]. ChromaDB expects a batch
+list[list[float]] for query embeddings. The method now returns the full
+converted batch. ingest.py from the user's upload is included unchanged.

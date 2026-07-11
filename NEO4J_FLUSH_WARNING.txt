@@ -1,0 +1,5 @@
+WARNING
+=======
+This package flushes the configured Neo4j database at startup before ingestion.
+Cypher executed: MATCH (n) DETACH DELETE n
+Use a dedicated Neo4j database/container for QODE.

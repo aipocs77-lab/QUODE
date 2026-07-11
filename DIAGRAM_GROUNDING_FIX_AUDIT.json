@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "compile_errors": [],
+  "directed_graph_accepts_edge_attrs": true,
+  "directed_graph_has_get_edge_data": true,
+  "directed_graph_nodes_is_iterable_property": true,
+  "grounding_function_compiles": true,
+  "asis_quality_chunk_fallback_present": true
+}
